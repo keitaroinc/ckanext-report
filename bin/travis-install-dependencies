@@ -27,9 +27,9 @@ cd ckan
 paster db init -c test-core.ini
 cd -
 
-echo "Installing ckanext-orgdashboards and its requirements..."
-python setup.py develop
-pip install -r requirements.txt
+#echo "Installing ckanext-orgdashboards and its requirements..."
+#python setup.py develop
+#pip install -r requirements.txt
 
 echo "travis-install-dependencies is done."
 

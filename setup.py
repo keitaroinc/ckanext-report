@@ -21,12 +21,27 @@ setup(
     install_requires=[
         # -*- Extra requirements: -*-
     ],
-    entry_points='''
+     entry_points='''
         [ckan.plugins]
-        report = ckanext.report.plugin:ReportPlugin
+        report=ckanext.report.plugin:ReportPlugin
         tagless_report = ckanext.report.plugin:TaglessReportPlugin
 
         [paste.paster_command]
         report = ckanext.report.command:ReportCommand
+
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
     ''',
+
+    # If you are changing from the default layout of your extension, you may
+    # have to change the message extractors, you can read more about babel
+    # message extraction at
+    # http://babel.pocoo.org/docs/messages/#extraction-method-mapping-and-configuration
+    message_extractors={
+        'ckanext': [
+            ('**.py', 'python', None),
+            ('**.js', 'javascript', None),
+            ('**/templates/**.html', 'ckan', None),
+        ],
+    }
 )

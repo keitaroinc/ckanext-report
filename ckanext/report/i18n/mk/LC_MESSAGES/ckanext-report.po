@@ -1,0 +1,85 @@
+# #-#-#-#-#  ckanext-report.pot (ckanext-report 0.1)  #-#-#-#-#
+# Macedonian translations for ckanext-report.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the ckanext-report
+# project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-07-04 16:10+0200\n"
+"PO-Revision-Date: 2018-07-04 15:31+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: mk\n"
+"Language-Team: mk <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ckanext/report/templates/report/index.html:3
+#: ckanext/report/templates/report/index.html:6
+#: ckanext/report/templates/report/view.html:3
+#: ckanext/report/templates/report/view.html:6
+msgid "Reports"
+msgstr "Извештај"
+
+#: ckanext/report/templates/report/index.html:26
+msgid "View Report"
+msgstr "Преглед на извештај"
+
+#: ckanext/report/templates/report/option_include_sub_organizations.html:9
+msgid "Include results from sub-organizations"
+msgstr "Вклучи резултати од под-институции"
+
+#: ckanext/report/templates/report/option_organization.html:12
+#: ckanext/report/templates/report/option_organization.html:16
+msgid "Index of all organizations"
+msgstr "Индекс на сите институции"
+
+#: ckanext/report/templates/report/tagless-datasets.html:8
+msgid "Datasets without tags"
+msgstr "Податочени сетови без ознаки"
+
+#: ckanext/report/templates/report/tagless-datasets.html:9
+msgid "Average tags per package"
+msgstr "Просечен број на ознаки по податочен сет"
+
+#: ckanext/report/templates/report/tagless-datasets.html:16
+msgid "Notes"
+msgstr "Забелешки"
+
+#: ckanext/report/templates/report/view.html:14
+msgid "Generated"
+msgstr "Генерирано"
+
+#: ckanext/report/templates/report/view.html:18
+msgid "Refresh report"
+msgstr "Освежи извештај"
+
+#: ckanext/report/templates/report/view.html:21
+msgid "Refresh"
+msgstr "Освежи"
+
+#: ckanext/report/templates/report/view.html:23
+msgid ""
+"As a system administrator you are able to refresh this report on demand "
+"by clicking the 'Refresh' button."
+msgstr ""
+"Како систем администратор Вие имате можност да го освежите овој извештај "
+"со со кликнување на копчето 'Освежи'."
+
+#: ckanext/report/templates/report/view.html:29
+msgid "Options"
+msgstr "Опции"
+
+#: ckanext/report/templates/report/view.html:50
+msgid "Results"
+msgstr "Резултати"
+
+#: ckanext/report/templates/report/view.html:52
+msgid "No results found."
+msgstr "Не се пронајдени резултати"
+

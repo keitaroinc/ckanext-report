@@ -1,0 +1,36 @@
+.reports{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.report-summary {
+  flex: 1 0 22%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.panel-heading {
+  min-width: 100%;
+}
+
+.panel-body{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.panel-title .fa {
+  margin-right: 5px;
+}
+
+.report-description {
+  min-height: 120px;
+}
+
+.view-report-link {
+  align-self: flex-start;
+  justify-self: flex-end;
+  margin-top: 15px;
+}

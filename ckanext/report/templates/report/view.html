@@ -1,6 +1,11 @@
+{% resource 'report/css/ckanext-report.css' %}
 {% extends "page.html" %}
 
 {% block title %}{{ report.title }} - {{ _('Reports') }} - {{ super() }}{% endblock %}
+
+{% block page_header %}
+{# Don't render the page tabs placeholder. #}
+{% endblock %}
 
 {% block breadcrumb_content %}
   {{ h.build_nav('reports', _('Reports')) }}
@@ -78,3 +83,6 @@
     </script>
 {% endblock%}
 
+{% block secondary_content %}
+  {% snippet 'report/snippets/helper.html' %}
+{% endblock %}

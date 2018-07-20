@@ -37,7 +37,7 @@ msgstr "Вклучи резултати од под-институции"
 #: ckanext/report/templates/report/option_organization.html:12
 #: ckanext/report/templates/report/option_organization.html:16
 msgid "Index of all organizations"
-msgstr "Индекс на сите институции"
+msgstr "Индекс на сите организации"
 
 #: ckanext/report/templates/report/tagless-datasets.html:8
 msgid "Datasets without tags"

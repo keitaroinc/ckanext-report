@@ -33,12 +33,12 @@ msgstr "Shiko Raportin"
 
 #: ckanext/report/templates/report/option_include_sub_organizations.html:9
 msgid "Include results from sub-organizations"
-msgstr "Përfshini rezultatet nga nën-institucionet"
+msgstr "Përfshini rezultatet nga nën-organizatat"
 
 #: ckanext/report/templates/report/option_organization.html:12
 #: ckanext/report/templates/report/option_organization.html:16
 msgid "Index of all organizations"
-msgstr "Indeksi i të gjitha institucioneve"
+msgstr "Indeksi i të gjitha organizatave"
 
 #: ckanext/report/templates/report/tagless-datasets.html:8
 msgid "Datasets without tags"

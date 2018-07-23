@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-07-19 11:37+0200\n"
-"PO-Revision-Date: 2018-07-19 11:52+0200\n"
+"POT-Creation-Date: 2018-07-23 13:16+0200\n"
+"PO-Revision-Date: 2018-07-23 13:30+0200\n"
+"Last-Translator: \n"
 "Language: sq\n"
 "Language-Team: sq <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -17,23 +18,29 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Last-Translator: \n"
 "X-Generator: Poedit 2.0.4\n"
 
-#: ckanext/report/templates/report/index.html:3
-#: ckanext/report/templates/report/index.html:6
-#: ckanext/report/templates/report/view.html:3
-#: ckanext/report/templates/report/view.html:6
+#: ckanext/report/templates/header.html:6
+#: ckanext/report/templates/report/index.html:4
+#: ckanext/report/templates/report/index.html:11
+#: ckanext/report/templates/report/view.html:4
+#: ckanext/report/templates/report/view.html:11
 msgid "Reports"
 msgstr "Raportet"
 
-#: ckanext/report/templates/report/index.html:26
+#: ckanext/report/templates/report/index.html:28
 msgid "View Report"
 msgstr "Shiko Raportin"
 
 #: ckanext/report/templates/report/option_include_sub_organizations.html:9
 msgid "Include results from sub-organizations"
 msgstr "Përfshini rezultatet nga nën-organizatat"
+
+#: ckanext/report/templates/report/option_organization.html:9
+#, fuzzy
+#| msgid "Index of all organizations"
+msgid "Organization"
+msgstr "Indeksi i të gjitha organizatave"
 
 #: ckanext/report/templates/report/option_organization.html:12
 #: ckanext/report/templates/report/option_organization.html:16
@@ -48,23 +55,37 @@ msgstr "Grupet e të dhënave pa etiketat"
 msgid "Average tags per package"
 msgstr "Etiketat mesatare për setin e të dhënave"
 
+#: ckanext/report/templates/report/tagless-datasets.html:15
+msgid "Dataset"
+msgstr "Seti i të dhënave"
+
 #: ckanext/report/templates/report/tagless-datasets.html:16
 msgid "Notes"
 msgstr "Shënime"
 
-#: ckanext/report/templates/report/view.html:14
+#: ckanext/report/templates/report/tagless-datasets.html:17
+msgid "User"
+msgstr "Përdorues"
+
+#: ckanext/report/templates/report/tagless-datasets.html:18
+#, fuzzy
+#| msgid "Generated"
+msgid "Created"
+msgstr "Krijuar"
+
+#: ckanext/report/templates/report/view.html:19
 msgid "Generated"
 msgstr "Gjeneruara"
 
-#: ckanext/report/templates/report/view.html:18
+#: ckanext/report/templates/report/view.html:23
 msgid "Refresh report"
 msgstr "Raporti i rifreskimit"
 
-#: ckanext/report/templates/report/view.html:21
+#: ckanext/report/templates/report/view.html:26
 msgid "Refresh"
 msgstr "Rifreskoj"
 
-#: ckanext/report/templates/report/view.html:23
+#: ckanext/report/templates/report/view.html:28
 msgid ""
 "As a system administrator you are able to refresh this report on demand "
 "by clicking the 'Refresh' button."
@@ -72,14 +93,33 @@ msgstr ""
 "Si administrator i sistemit ju mund ta rifreskoni këtë raport sipas "
 "kërkesës duke klikuar butonin 'Rifreskoj'."
 
-#: ckanext/report/templates/report/view.html:29
+#: ckanext/report/templates/report/view.html:34
 msgid "Options"
 msgstr "Opsione"
 
 #: ckanext/report/templates/report/view.html:50
+msgid "Download"
+msgstr "Shkarko"
+
+#: ckanext/report/templates/report/view.html:55
 msgid "Results"
 msgstr "Rezultatet"
 
-#: ckanext/report/templates/report/view.html:52
+#: ckanext/report/templates/report/view.html:57
 msgid "No results found."
 msgstr "Nuk u gjetën rezultate."
+
+#: ckanext/report/templates/report/snippets/helper.html:4
+msgid "What are Reports?"
+msgstr "Cilat janë Raportet?"
+
+#: ckanext/report/templates/report/snippets/helper.html:8
+msgid ""
+" CKAN Reports are used to check link validity and broken links across a "
+"portal. You can also review open data quality across organizations, "
+"groups and datasets."
+msgstr ""
+"Raportet e CKAN përdoren për të kontrolluar vlefshmërinë e lidhjes dhe "
+"lidhjet e thyera në një portal. Ju gjithashtu mund të rishikoni "
+"cilësinë e të dhënave të hapur në të gjithë organizatat, grupet dhe "
+"setet e të dhënave."

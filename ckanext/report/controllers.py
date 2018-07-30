@@ -134,7 +134,8 @@ class ReportController(t.BaseController):
             'report_date': report_date, 'options': options,
             'options_html': options_html,
             'report_template': report['template'],
-            'are_some_results': are_some_results})
+            'are_some_results': are_some_results,
+            'org_name': organization})
 
 
 def make_csv_from_dicts(rows):

@@ -19,11 +19,11 @@
       <div class="panel-heading">
         <h3 class="panel-title">
           <span class="fa fa-file-text-o"></span>
-          <a href="{{ report_url }}">{{ report.title }}</a>
+          <a href="{{ report_url }}">{{ _(report.title) }}</a>
         </h3>
       </div>
       <div class="panel-body">
-        <div class="report-description">{{ report.description }}</div>
+        <div class="report-description">{{ _(report.description) }}</div>
         <a class="btn btn-default view-report-link" href="{{ report_url }}">
           {{ _('View Report') }}
         </a>

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-07-23 13:16+0200\n"
-"PO-Revision-Date: 2018-07-23 13:30+0200\n"
+"PO-Revision-Date: 2018-08-07 23:44+0200\n"
 "Last-Translator: \n"
 "Language: sq\n"
 "Language-Team: sq <LL@li.org>\n"
@@ -37,10 +37,8 @@ msgid "Include results from sub-organizations"
 msgstr "Përfshini rezultatet nga nën-organizatat"
 
 #: ckanext/report/templates/report/option_organization.html:9
-#, fuzzy
-#| msgid "Index of all organizations"
 msgid "Organization"
-msgstr "Indeksi i të gjitha organizatave"
+msgstr "Organizata"
 
 #: ckanext/report/templates/report/option_organization.html:12
 #: ckanext/report/templates/report/option_organization.html:16
@@ -49,11 +47,11 @@ msgstr "Indeksi i të gjitha organizatave"
 
 #: ckanext/report/templates/report/tagless-datasets.html:8
 msgid "Datasets without tags"
-msgstr "Grupet e të dhënave pa etiketat"
+msgstr "Grupet e të dhënave pa tags-at"
 
 #: ckanext/report/templates/report/tagless-datasets.html:9
 msgid "Average tags per package"
-msgstr "Etiketat mesatare për setin e të dhënave"
+msgstr "Tags-at mesatar për paketë"
 
 #: ckanext/report/templates/report/tagless-datasets.html:15
 msgid "Dataset"
@@ -65,7 +63,7 @@ msgstr "Shënime"
 
 #: ckanext/report/templates/report/tagless-datasets.html:17
 msgid "User"
-msgstr "Përdorues"
+msgstr "Përdoruesi"
 
 #: ckanext/report/templates/report/tagless-datasets.html:18
 #, fuzzy
@@ -75,7 +73,7 @@ msgstr "Krijuar"
 
 #: ckanext/report/templates/report/view.html:19
 msgid "Generated"
-msgstr "Gjeneruara"
+msgstr "Të gjeneruara"
 
 #: ckanext/report/templates/report/view.html:23
 msgid "Refresh report"
@@ -120,6 +118,6 @@ msgid ""
 "groups and datasets."
 msgstr ""
 "Raportet e CKAN përdoren për të kontrolluar vlefshmërinë e lidhjes dhe "
-"lidhjet e thyera në një portal. Ju gjithashtu mund të rishikoni "
-"cilësinë e të dhënave të hapur në të gjithë organizatat, grupet dhe "
+"lidhjeve të thyera në një portal. Ju gjithashtu mund të rishikoni "
+"cilësinë e të dhënave të hapura në të gjitha organizatat, grupet dhe "
 "setet e të dhënave."

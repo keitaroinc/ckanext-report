@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-07-23 13:16+0200\n"
-"PO-Revision-Date: 2018-08-07 23:44+0200\n"
+"POT-Creation-Date: 2018-08-13 14:34+0200\n"
+"PO-Revision-Date: 2018-08-13 14:36+0200\n"
 "Last-Translator: \n"
 "Language: sq\n"
 "Language-Team: sq <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgstr ""
 #: ckanext/report/templates/header.html:6
 #: ckanext/report/templates/report/index.html:4
 #: ckanext/report/templates/report/index.html:11
-#: ckanext/report/templates/report/view.html:4
-#: ckanext/report/templates/report/view.html:11
+#: ckanext/report/templates/report/view.html:6
+#: ckanext/report/templates/report/view.html:13
 msgid "Reports"
 msgstr "Raportet"
 
@@ -66,24 +66,22 @@ msgid "User"
 msgstr "Përdoruesi"
 
 #: ckanext/report/templates/report/tagless-datasets.html:18
-#, fuzzy
-#| msgid "Generated"
 msgid "Created"
-msgstr "Krijuar"
+msgstr "Krijuaр"
 
-#: ckanext/report/templates/report/view.html:19
+#: ckanext/report/templates/report/view.html:26
 msgid "Generated"
 msgstr "Të gjeneruara"
 
-#: ckanext/report/templates/report/view.html:23
+#: ckanext/report/templates/report/view.html:30
 msgid "Refresh report"
 msgstr "Raporti i rifreskimit"
 
-#: ckanext/report/templates/report/view.html:26
+#: ckanext/report/templates/report/view.html:33
 msgid "Refresh"
 msgstr "Rifreskoj"
 
-#: ckanext/report/templates/report/view.html:28
+#: ckanext/report/templates/report/view.html:35
 msgid ""
 "As a system administrator you are able to refresh this report on demand "
 "by clicking the 'Refresh' button."
@@ -91,19 +89,19 @@ msgstr ""
 "Si administrator i sistemit ju mund ta rifreskoni këtë raport sipas "
 "kërkesës duke klikuar butonin 'Rifreskoj'."
 
-#: ckanext/report/templates/report/view.html:34
+#: ckanext/report/templates/report/view.html:41
 msgid "Options"
 msgstr "Opsione"
 
-#: ckanext/report/templates/report/view.html:50
+#: ckanext/report/templates/report/view.html:57
 msgid "Download"
 msgstr "Shkarko"
 
-#: ckanext/report/templates/report/view.html:55
+#: ckanext/report/templates/report/view.html:62
 msgid "Results"
 msgstr "Rezultatet"
 
-#: ckanext/report/templates/report/view.html:57
+#: ckanext/report/templates/report/view.html:64
 msgid "No results found."
 msgstr "Nuk u gjetën rezultate."
 
@@ -117,7 +115,7 @@ msgid ""
 "portal. You can also review open data quality across organizations, "
 "groups and datasets."
 msgstr ""
-"Raportet e CKAN përdoren për të kontrolluar vlefshmërinë e lidhjes dhe "
+" Raportet e CKAN përdoren për të kontrolluar vlefshmërinë e lidhjes dhe "
 "lidhjeve të thyera në një portal. Ju gjithashtu mund të rishikoni "
 "cilësinë e të dhënave të hapura në të gjitha organizatat, grupet dhe "
 "setet e të dhënave."

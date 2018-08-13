@@ -8,22 +8,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-07-23 13:16+0200\n"
-"PO-Revision-Date: 2018-07-04 15:31+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2018-08-13 14:34+0200\n"
+"PO-Revision-Date: 2018-08-13 14:35+0200\n"
 "Language: mk\n"
 "Language-Team: mk <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.0.4\n"
 
 #: ckanext/report/templates/header.html:6
 #: ckanext/report/templates/report/index.html:4
 #: ckanext/report/templates/report/index.html:11
-#: ckanext/report/templates/report/view.html:4
-#: ckanext/report/templates/report/view.html:11
+#: ckanext/report/templates/report/view.html:6
+#: ckanext/report/templates/report/view.html:13
 msgid "Reports"
 msgstr "Извештај"
 
@@ -36,10 +37,8 @@ msgid "Include results from sub-organizations"
 msgstr "Вклучи резултати од под-организации"
 
 #: ckanext/report/templates/report/option_organization.html:9
-#, fuzzy
-#| msgid "Index of all organizations"
 msgid "Organization"
-msgstr "Индекс на сите организации"
+msgstr "Организација"
 
 #: ckanext/report/templates/report/option_organization.html:12
 #: ckanext/report/templates/report/option_organization.html:16
@@ -68,23 +67,22 @@ msgstr "Корисник"
 
 #: ckanext/report/templates/report/tagless-datasets.html:18
 #, fuzzy
-#| msgid "Generated"
 msgid "Created"
 msgstr "Креирано"
 
-#: ckanext/report/templates/report/view.html:19
+#: ckanext/report/templates/report/view.html:26
 msgid "Generated"
 msgstr "Генерирано"
 
-#: ckanext/report/templates/report/view.html:23
+#: ckanext/report/templates/report/view.html:30
 msgid "Refresh report"
 msgstr "Освежи извештај"
 
-#: ckanext/report/templates/report/view.html:26
+#: ckanext/report/templates/report/view.html:33
 msgid "Refresh"
 msgstr "Освежи"
 
-#: ckanext/report/templates/report/view.html:28
+#: ckanext/report/templates/report/view.html:35
 msgid ""
 "As a system administrator you are able to refresh this report on demand "
 "by clicking the 'Refresh' button."
@@ -92,19 +90,19 @@ msgstr ""
 "Како систем администратор Вие имате можност да го освежите овој извештај "
 "со со кликнување на копчето 'Освежи'."
 
-#: ckanext/report/templates/report/view.html:34
+#: ckanext/report/templates/report/view.html:41
 msgid "Options"
 msgstr "Опции"
 
-#: ckanext/report/templates/report/view.html:50
+#: ckanext/report/templates/report/view.html:57
 msgid "Download"
 msgstr "Преземи"
 
-#: ckanext/report/templates/report/view.html:55
+#: ckanext/report/templates/report/view.html:62
 msgid "Results"
 msgstr "Резултати"
 
-#: ckanext/report/templates/report/view.html:57
+#: ckanext/report/templates/report/view.html:64
 msgid "No results found."
 msgstr "Не се пронајдени резултати"
 
@@ -118,7 +116,7 @@ msgid ""
 "portal. You can also review open data quality across organizations, "
 "groups and datasets."
 msgstr ""
-" CKAN Извештаите се употребуваат за да се провери валидноста на линковите како и недостапните линкови низ "
-"порталот. Вие исто така може да извршите преглед на квалитетот на отворените податоци во организациите, "
-"групите и податочните сетови."
-
+" CKAN Извештаите се употребуваат за да се провери валидноста на "
+"линковите како и недостапните линкови низ порталот. Вие исто така може "
+"да извршите преглед на квалитетот на отворените податоци во "
+"организациите, групите и податочните сетови."

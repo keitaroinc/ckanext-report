@@ -107,7 +107,7 @@ msgstr "Не се пронајдени резултати"
 
 #: ckanext/report/templates/report/snippets/helper.html:4
 msgid "What are Reports?"
-msgstr "Што се Извештаи?"
+msgstr "Што се извештаи?"
 
 #: ckanext/report/templates/report/snippets/helper.html:8
 msgid ""

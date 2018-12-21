@@ -25,7 +25,7 @@ msgstr ""
 #: ckanext/report/templates/report/view.html:6
 #: ckanext/report/templates/report/view.html:13
 msgid "Reports"
-msgstr "Raportet"
+msgstr "Raporte"
 
 #: ckanext/report/templates/report/index.html:28
 msgid "View Report"
@@ -118,3 +118,4 @@ msgstr ""
 "lidhjeve të thyera në një portal. Ju gjithashtu mund të rishikoni "
 "cilësinë e të dhënave të hapura në të gjitha organizatat, grupet dhe "
 "setet e të dhënave."
+

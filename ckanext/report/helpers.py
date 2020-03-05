@@ -2,7 +2,9 @@ from ckanext.report.report_registry import ReportRegistry
 from ckan.plugins import toolkit as tk
 import ckan.lib.helpers
 from ckan import model
+from ckan.plugins import toolkit
 
+get_action = toolkit.get_action
 
 def relative_url_for(**kwargs):
     '''Return the existing URL but amended for the given url_for-style
@@ -32,11 +34,9 @@ def chunks(list_, size):
 
 
 def organization_list():
-    organizations = model.Session.query(model.Group).\
-        filter(model.Group.type=='organization').\
-        filter(model.Group.state=='active').order_by('title')
+    organizations = get_action('organization_list')(data_dict={'include_extras': True})
     for organization in organizations:
-        yield (organization.name, organization.title)
+        yield (organization.get('name', ''), organization.get('title', ''))
 
 
 def render_datetime(datetime_, date_format=None, with_hours=False):
